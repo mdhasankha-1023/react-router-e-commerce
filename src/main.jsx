@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
 import Layout from './Components/Layout/Layout.jsx';
+import Main from './Components/Main/Main.jsx';
 
 const router = createBrowserRouter([
   {
@@ -14,7 +14,8 @@ const router = createBrowserRouter([
     element: <Layout></Layout>,
     children: [
       {
-        
+        path: '/',
+        element: <Main></Main> 
       }
     ]
   }
