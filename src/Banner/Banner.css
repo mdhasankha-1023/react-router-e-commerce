@@ -1,4 +1,11 @@
+.bnr-container{
+    position: relative;
+}
 .bnr-img{
     width: 100%;
-    transition: opacity 0.5s ease-in-out;
+}
+.bnr-text{
+    position: absolute;
+    top: 100px;
+    left: 200px;
 }
