@@ -16,7 +16,6 @@ const Banner = () => {
         } , 5000)
         return () => clearInterval(interval)
     } ,[currentImg]);
-    console.log(img[currentImg])
     return (
         <div className='bnr-container'>
             <img className='bnr-img' src={img[currentImg]} alt="" /> 

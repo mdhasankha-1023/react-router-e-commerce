@@ -1,0 +1,14 @@
+.mobile{
+    background-image: url(/public/pic/mobile-5.webp);
+    background-position: center;
+    background-size: cover;
+    width: 669px;
+    height: 568px;
+}
+.headphone{
+    background-image: url(/public/pic/headphons-2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 669px;
+    height: 568px;
+}

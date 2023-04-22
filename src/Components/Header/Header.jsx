@@ -1,7 +1,7 @@
 import React from 'react';
 import TopNav from '../TopNav/TopNav';
-import MainNav from '../../MainNav/MainNav';
-import BottomNav from '../../BottomNav/BottomNav';
+import MainNav from '../MainNav/MainNav';
+import BottomNav from '../BottomNav/BottomNav';
 
 const Header = () => {
     return (
