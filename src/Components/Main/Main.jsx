@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from '../Banner/Banner';
 import Services from '../Services/Services';
 import OtherServices from '../OtherServices/OtherServices';
+import BestSellers from '../BestSellers/BestSellers';
 
 const Main = () => {
     return (
@@ -9,6 +10,7 @@ const Main = () => {
             <Banner></Banner>
             <Services></Services>
             <OtherServices></OtherServices>
+            <BestSellers></BestSellers>
         </div>
     );
 };
